@@ -65,3 +65,13 @@ th {
 td {
     background-color: #f0f8ff;
 }
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery img {
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}

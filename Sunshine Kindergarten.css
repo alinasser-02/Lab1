@@ -75,3 +75,12 @@ td {
     width: 200px;
     height: 200px;
 }
+
+footer {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -84,3 +84,47 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+
+.cards
+{
+ 
+    display:flex;
+    justify-content: space-around;
+
+}
+.card-body .card-text
+{
+height: 100px !important;
+
+}
+
+
+img
+{
+height: 200px !important;
+width: 287px !important;
+border-radius: 3%;
+}
+
+.teacher
+{
+display: flex;
+justify-content: space-between;
+align-items: center ;
+border: 1px solid black;
+border-radius: 0.5%;
+}
+
+.teacherInfo
+{
+width: 480px;
+margin-right: 400px;
+}
+
+.imgT
+{
+    height: 150px ;
+    width: 200px ;
+
+}

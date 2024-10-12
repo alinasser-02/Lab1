@@ -128,3 +128,49 @@ margin-right: 400px;
     width: 200px ;
 
 }
+
+@media (max-width:390px)  {
+    html
+    {
+            width: 100vw;
+            height: 100vh;
+    }
+    .gallery
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+   .gallery img {
+    margin-top: 20px;
+   }
+
+   .cards
+   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .card
+   {
+    margin-top: 15px;
+   }
+.teacher
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.teacherInfo{
+    margin: auto;
+    width: 327px ;
+    height:200px ;
+    text-align: center;
+    margin-top: 8px;
+}
+}
